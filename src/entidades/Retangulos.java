@@ -30,4 +30,10 @@ public class Retangulos implements Formas {
 	public double area() {
 		return width * height;
 	}
+
+	@Override
+	public double perimetro() {
+		
+		return width + width + height + height;
+	}
 }

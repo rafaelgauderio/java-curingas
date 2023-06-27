@@ -21,4 +21,9 @@ public class Circulos implements Formas {
 	public double area() {
 		return Math.PI * radius * radius;
 	}
+
+	@Override
+	public double perimetro() {		
+		return Math.PI * 2 * this.radius;
+	}
 }
